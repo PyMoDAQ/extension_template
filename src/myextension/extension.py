@@ -2,7 +2,7 @@ from pymodaq.daq_utils import gui_utils as gutils
 from pymodaq.daq_utils import daq_utils as utils
 from pyqtgraph.parametertree import Parameter, ParameterTree
 from pymodaq.daq_utils.parameter import pymodaq_ptypes
-from PyQt5 import QtWidgets, QtCore
+from qtpy import QtWidgets, QtCore
 
 from pymodaq.daq_utils.plotting.viewer1D.viewer1D_main import Viewer1D
 from pymodaq.daq_utils.plotting.viewer2D.viewer2D_main import Viewer2D
