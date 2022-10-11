@@ -4,8 +4,8 @@ from pyqtgraph.parametertree import Parameter, ParameterTree
 from pymodaq.daq_utils.parameter import pymodaq_ptypes
 from qtpy import QtWidgets, QtCore
 
-from pymodaq.daq_utils.plotting.viewer1D.viewer1D_main import Viewer1D
-from pymodaq.daq_utils.plotting.viewer2D.viewer2D_main import Viewer2D
+from pymodaq.daq_utils.plotting.data_viewers.viewer1D import Viewer1D
+from pymodaq.daq_utils.plotting.data_viewers.viewer2D import Viewer2D
 
 
 config = utils.load_config()
@@ -37,6 +37,7 @@ class MyExtension(gutils.CustomApp):
 
     def __init__(self, dockarea, dashboard):
         super().__init__(dockarea, dashboard)
+        self.setup_ui()
 
     def connect_things(self):
         pass
