@@ -9,7 +9,7 @@ __ http://pymodaq.cnrs.fr
 Information
 ***********
 
-GitHub repo: https://github.com/CEMES-CNRS/extension_template
+GitHub repo: https://github.com/PyMoDAQ/extension_template
 
 Documentation: http://pymodaq.cnrs.fr/
 
